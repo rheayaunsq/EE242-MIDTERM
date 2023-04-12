@@ -1,0 +1,40 @@
+Name: "ibrahim"
+
+i: 105
+b: 98
+r: 114
+a: 97
+h: 104
+i: 105
+m: 109
+Sum of ASCII values for "ibrahim": 732
+
+Surname: "akkopru"
+
+a: 97
+k: 107
+k: 107
+o: 111
+p: 112
+r: 114
+u: 117
+Sum of ASCII values for "akkopru": 765
+
+Total ASCII sum of my name and surname: 1497
+
+To calculate the timer number, I will take the remainder of the total ASCII sum divided by 14, add 1 to it, and set it as the timer number:
+Timer number = (1497 % 14) + 1 = 8
+
+To calculate the ARR number, I will use the value 65536-1, which is the maximum value for a 16-bit timer:
+ARR number = 65536-1 = 65535
+
+To calculate the duration, I will take the remainder of the ASCII sum of my surname divided by 1500 and multiply it by 30, to get the duration in seconds:
+Duration = (765 % 1500) * 30 = 22950 seconds (or approximately 6 hours and 22 minutes)
+
+To calculate the LED pin number, I will take the remainder of the total ASCII sum divided by 4, add 12 to it, and set it as the LED pin number:
+LED pin number = (1497 % 4) + 12 = 15
+
+
+
+
+
